@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.container {
+  width: 45%;
+  height: 50%;
+  padding: 10px;
+  background-image: url(rainbow.jpg);
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px lightgrey, -10px -10px 15px lightgrey;
+}
+
+.display #screen {
+  width: 92%;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5em;
+  background: lightgrey;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px black;
+}
+
+.btns {
+  width: 100%;
+  margin-top: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns .row button {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px black, -5px -5px 8px white;
+  transition: 0.1s;
+}
+
+.btns .row button:hover {
+  box-shadow: inset 5px 5px 8px whitesmoke, inset -5px -5px 8px whitesmoke;
+  background: lightgrey;
+}
+
+#eval {
+  background: limegreen;
+  color: bisque;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px lightgrey, inset -5px -5px 8px lightgrey;
+}
+
+#ac {
+  background: purple;
+  color: bisque;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px lightgrey, inset -5px -5px 8px lightgrey;
+}
+
+#ce {
+  background: red;
+  color: bisque;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px lightgrey, inset -5px -5px 8px lightgrey;
+}
